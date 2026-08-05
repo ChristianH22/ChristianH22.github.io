@@ -23,9 +23,7 @@ export default async function WritingPage() {
       </p>
 
       {posts.length === 0 ? (
-        <p className="empty-note">
-          First post soon. Subscribe so you don&apos;t miss it.
-        </p>
+        <p className="empty-note">Subscribe so you don&apos;t miss it.</p>
       ) : (
         <ul className="post-list">
           {posts.map((post) => (
