@@ -33,12 +33,19 @@ export default function RootLayout({
         </main>
         <footer className="footer">
           <div className="container footer-inner">
-            <span>Bouzouki and guitar when the laptop is closed.</span>
             <span>
-              <a href={site.substack}>Substack</a> ·{" "}
-              <a href={site.github}>GitHub</a> ·{" "}
-              <a href={site.linkedin}>LinkedIn</a> ·{" "}
-              <a href={`mailto:${site.email}`}>Email</a>
+              <a href={site.substack} target="_blank" rel="noopener noreferrer">
+                Substack
+              </a>{" "}
+              ·{" "}
+              <a href={site.github} target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>{" "}
+              ·{" "}
+              <a href={site.linkedin} target="_blank" rel="noopener noreferrer">
+                LinkedIn
+              </a>{" "}
+              · <a href={`mailto:${site.email}`}>Email</a>
             </span>
           </div>
         </footer>

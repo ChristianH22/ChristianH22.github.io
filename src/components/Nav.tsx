@@ -5,16 +5,13 @@ import { usePathname } from "next/navigation";
 import { site } from "@/lib/config";
 
 const links = [
-  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/resume", label: "Resume" },
   { href: "/projects", label: "Projects" },
-  { href: "/writing", label: "Writing" },
 ];
 
 export default function Nav() {
   const pathname = usePathname();
-
-  const isActive = (href: string) =>
-    href === "/" ? pathname === "/" : pathname.startsWith(href);
 
   return (
     <nav className="nav">
@@ -27,11 +24,14 @@ export default function Nav() {
             <Link
               key={l.href}
               href={l.href}
-              className={isActive(l.href) ? "active" : undefined}
+              className={pathname.startsWith(l.href) ? "active" : undefined}
             >
               {l.label}
             </Link>
           ))}
+          <a href={site.substack} target="_blank" rel="noopener noreferrer">
+            Writing
+          </a>
         </div>
       </div>
     </nav>

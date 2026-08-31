@@ -3,9 +3,6 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
-  # Rebuild daily so new Substack posts (fetched at build time) appear.
-  schedule:
-    - cron: "0 9 * * *" # 09:00 UTC daily
   workflow_dispatch: {}
 
 permissions:
@@ -31,10 +28,6 @@ jobs:
 
       - run: npm ci
       - run: npm run build
-        env:
-          # Authenticates the GitHub API call in src/lib/github.ts to avoid
-          # unauthenticated rate limits on shared Actions runners.
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/upload-pages-artifact@v3
         with:

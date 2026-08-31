@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Projects",
+  title: "Resume",
 };
 
-export default function ProjectsPage() {
+export default function ResumePage() {
   return (
     <div className="text-col">
-      <h1 className="page-title">Projects</h1>
+      <h1 className="page-title">Resume</h1>
     </div>
   );
 }
