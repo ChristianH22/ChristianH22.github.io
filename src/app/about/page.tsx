@@ -14,8 +14,9 @@ export default function AboutPage() {
         look to make him and my family proud.
 
         My mission in my career and life is to discover knowledge to create a positive impact 
-        on our world, through innovation and engineering. Engineering offers an opportunity 
-        to bridge cutting edge research and application. Below I document my journey to where
+        on our world, through innovation, synonomously engineering.
+
+        Below I document my journey to where
         I am today
       </p>
 
@@ -59,15 +60,14 @@ export default function AboutPage() {
 
       <h2 className="bio-year">2017</h2>
       <p>High School starts. I swim for the Varsity team, competing at the state competition.
-      I am introduced to programming this year, a class typically meant for 3rd year studedents.
-      I go on to take AP Computer Science A, learning Java. Thank you Mrs.Petite for giving me this early
-      foundation that has enabled me to build my career.
+      I am introduced to programming this year, a class typically meant for 3rd year students.
+      I go on to take AP Computer Science.
 
 
       </p>
 
       <h2 className="bio-year">2020</h2>
-      <p>COVID19. Didn't expect this happening - taught myself guitar, piano, and foundational machine learning algorithms using scikit-learn, K-Fold Cross validation to be specific.
+      <p>COVID19. Didn't expect this happening - taught myself guitar, piano, and foundational machine learning algorithms using scikit-learn.
         I move to Raleigh, North Carolina
       </p>
 
