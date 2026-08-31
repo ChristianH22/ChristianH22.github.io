@@ -7,7 +7,6 @@ import { site } from "@/lib/config";
 const links = [
   { href: "/about", label: "About" },
   { href: "/resume", label: "Resume" },
-  { href: "/projects", label: "Projects" },
 ];
 
 export default function Nav() {

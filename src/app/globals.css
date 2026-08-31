@@ -122,25 +122,27 @@ h3 {
   color: var(--faint);
   letter-spacing: 0.02em;
 }
-.hub-title {
-  font-size: clamp(1.9rem, 4.5vw, 2.6rem);
-  margin: 0 0 1.75rem;
-}
-.hub-links {
-  list-style: none;
-  padding: 0;
+.hub-intro {
+  font-size: 1.2rem;
+  line-height: 1.6;
   margin: 0;
-  font-size: 1.15rem;
-  line-height: 1.5;
-}
-.hub-links li {
-  margin: 0 0 0.9rem;
 }
 
 /* Page headings ----------------------------------------------------- */
 .page-title {
   font-size: clamp(1.7rem, 3.5vw, 2.1rem);
   margin: 0 0 0.5rem;
+}
+
+/* Biography (About) ------------------------------------------------- */
+.bio p {
+  margin: 0 0 1.25rem;
+}
+.bio-year {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: 2.25rem 0 0.6rem;
 }
 .page-intro {
   color: var(--muted);
