@@ -9,16 +9,6 @@ export default function ResumePage() {
     <div className="resume">
       <p className="resume-note">Recommendations are available upon request.</p>
 
-      <header className="resume-head">
-        <h1>Christian A. Hoimes</h1>
-        <p className="resume-contact">
-          New York, New York | 216-296-7757 | christianhoimes402@gmail.com
-        </p>
-        <p className="resume-contact">
-          linkedin.com/in/christian-hoimes1 | christianh22.github.io
-        </p>
-      </header>
-
       <section>
         <h2>Summary</h2>
         <p>
